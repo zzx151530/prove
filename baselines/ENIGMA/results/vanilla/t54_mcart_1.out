@@ -1,0 +1,30 @@
+# SinE strategy is gf600_h_gu_R05_F100_L20000
+# Trying AutoSched0 for 29 seconds
+# AutoSched0-Mode selected heuristic G_E___200_C41_F1_AE_CS_SP_PI_S0Y
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.036 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(t54_mcart_1, conjecture, ![X1, X2, X3, X4]:k3_zfmisc_1(k2_zfmisc_1(X1,X2),X3,X4)=k4_zfmisc_1(X1,X2,X3,X4), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/mcart_1__t54_mcart_1.p', t54_mcart_1)).
+fof(d4_zfmisc_1, axiom, ![X1, X2, X3, X4]:k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k3_zfmisc_1(X1,X2,X3),X4), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/mcart_1__t54_mcart_1.p', d4_zfmisc_1)).
+fof(d3_zfmisc_1, axiom, ![X1, X2, X3]:k3_zfmisc_1(X1,X2,X3)=k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/mcart_1__t54_mcart_1.p', d3_zfmisc_1)).
+fof(c_0_3, negated_conjecture, ~(![X1, X2, X3, X4]:k3_zfmisc_1(k2_zfmisc_1(X1,X2),X3,X4)=k4_zfmisc_1(X1,X2,X3,X4)), inference(assume_negation,[status(cth)],[t54_mcart_1])).
+fof(c_0_4, plain, ![X5, X6, X7, X8]:k4_zfmisc_1(X5,X6,X7,X8)=k2_zfmisc_1(k3_zfmisc_1(X5,X6,X7),X8), inference(variable_rename,[status(thm)],[d4_zfmisc_1])).
+fof(c_0_5, plain, ![X4, X5, X6]:k3_zfmisc_1(X4,X5,X6)=k2_zfmisc_1(k2_zfmisc_1(X4,X5),X6), inference(variable_rename,[status(thm)],[d3_zfmisc_1])).
+fof(c_0_6, negated_conjecture, k3_zfmisc_1(k2_zfmisc_1(esk1_0,esk2_0),esk3_0,esk4_0)!=k4_zfmisc_1(esk1_0,esk2_0,esk3_0,esk4_0), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[c_0_3])])])).
+cnf(c_0_7, plain, (k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k3_zfmisc_1(X1,X2,X3),X4)), inference(split_conjunct,[status(thm)],[c_0_4])).
+cnf(c_0_8, plain, (k3_zfmisc_1(X1,X2,X3)=k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3)), inference(split_conjunct,[status(thm)],[c_0_5])).
+cnf(c_0_9, negated_conjecture, (k3_zfmisc_1(k2_zfmisc_1(esk1_0,esk2_0),esk3_0,esk4_0)!=k4_zfmisc_1(esk1_0,esk2_0,esk3_0,esk4_0)), inference(split_conjunct,[status(thm)],[c_0_6])).
+cnf(c_0_10, plain, (k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)), inference(rw,[status(thm)],[c_0_7, c_0_8])).
+cnf(c_0_11, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_9, c_0_8]), c_0_10])]), ['proof']).
+# SZS output end CNFRefutation
+# Training examples: 0 positive, 0 negative
+
+# -------------------------------------------------
+# User time                : 0.041 s
+# System time              : 0.004 s
+# Total time               : 0.045 s
+# Maximum resident set size: 6968 pages

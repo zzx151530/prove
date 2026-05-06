@@ -1,0 +1,30 @@
+# No SInE strategy applied
+# Trying AutoSched0 for 29 seconds
+# AutoSched0-Mode selected heuristic G_E___300_C01_F1_SE_CS_SP_S0Y
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.003 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(t15_xboole_1, conjecture, ![X1, X2]:(k2_xboole_0(X1,X2)=k1_xboole_0=>X1=k1_xboole_0), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/xboole_1__t15_xboole_1.p', t15_xboole_1)).
+fof(t6_xboole_1, axiom, ![X1, X2]:k2_xboole_0(X1,k2_xboole_0(X1,X2))=k2_xboole_0(X1,X2), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/xboole_1__t15_xboole_1.p', t6_xboole_1)).
+fof(t1_boole, axiom, ![X1]:k2_xboole_0(X1,k1_xboole_0)=X1, file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/xboole_1__t15_xboole_1.p', t1_boole)).
+fof(c_0_3, negated_conjecture, ~(![X1, X2]:(k2_xboole_0(X1,X2)=k1_xboole_0=>X1=k1_xboole_0)), inference(assume_negation,[status(cth)],[t15_xboole_1])).
+fof(c_0_4, plain, ![X3, X4]:k2_xboole_0(X3,k2_xboole_0(X3,X4))=k2_xboole_0(X3,X4), inference(variable_rename,[status(thm)],[t6_xboole_1])).
+fof(c_0_5, negated_conjecture, (k2_xboole_0(esk9_0,esk10_0)=k1_xboole_0&esk9_0!=k1_xboole_0), inference(skolemize,[status(esa)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[c_0_3])])])])).
+fof(c_0_6, plain, ![X2]:k2_xboole_0(X2,k1_xboole_0)=X2, inference(variable_rename,[status(thm)],[t1_boole])).
+cnf(c_0_7, plain, (k2_xboole_0(X1,k2_xboole_0(X1,X2))=k2_xboole_0(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_4])).
+cnf(c_0_8, negated_conjecture, (k2_xboole_0(esk9_0,esk10_0)=k1_xboole_0), inference(split_conjunct,[status(thm)],[c_0_5])).
+cnf(c_0_9, plain, (k2_xboole_0(X1,k1_xboole_0)=X1), inference(split_conjunct,[status(thm)],[c_0_6])).
+cnf(c_0_10, negated_conjecture, (esk9_0!=k1_xboole_0), inference(split_conjunct,[status(thm)],[c_0_5])).
+cnf(c_0_11, negated_conjecture, ($false), inference(sr,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_7, c_0_8]), c_0_9]), c_0_10]), ['proof']).
+# SZS output end CNFRefutation
+# Training examples: 0 positive, 0 negative
+
+# -------------------------------------------------
+# User time                : 0.004 s
+# System time              : 0.001 s
+# Total time               : 0.005 s
+# Maximum resident set size: 4276 pages

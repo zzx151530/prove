@@ -1,0 +1,31 @@
+# No SInE strategy applied
+# Trying AutoSched0 for 29 seconds
+# AutoSched0-Mode selected heuristic G_E___107_C41_F1_PI_AE_Q4_CS_SP_PS_S0Y
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.011 s
+# Presaturation interreduction done
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(t4_subset_1, conjecture, ![X1]:m1_subset_1(k1_xboole_0,k1_zfmisc_1(X1)), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/subset_1__t4_subset_1.p', t4_subset_1)).
+fof(dt_k1_subset_1, axiom, ![X1]:m1_subset_1(k1_subset_1(X1),k1_zfmisc_1(X1)), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/subset_1__t4_subset_1.p', dt_k1_subset_1)).
+fof(d3_subset_1, axiom, ![X1]:k1_subset_1(X1)=k1_xboole_0, file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/subset_1__t4_subset_1.p', d3_subset_1)).
+fof(c_0_3, negated_conjecture, ~(![X1]:m1_subset_1(k1_xboole_0,k1_zfmisc_1(X1))), inference(assume_negation,[status(cth)],[t4_subset_1])).
+fof(c_0_4, plain, ![X2]:m1_subset_1(k1_subset_1(X2),k1_zfmisc_1(X2)), inference(variable_rename,[status(thm)],[dt_k1_subset_1])).
+fof(c_0_5, plain, ![X2]:k1_subset_1(X2)=k1_xboole_0, inference(variable_rename,[status(thm)],[d3_subset_1])).
+fof(c_0_6, negated_conjecture, ~m1_subset_1(k1_xboole_0,k1_zfmisc_1(esk55_0)), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[c_0_3])])])).
+cnf(c_0_7, plain, (m1_subset_1(k1_subset_1(X1),k1_zfmisc_1(X1))), inference(split_conjunct,[status(thm)],[c_0_4])).
+cnf(c_0_8, plain, (k1_subset_1(X1)=k1_xboole_0), inference(split_conjunct,[status(thm)],[c_0_5])).
+cnf(c_0_9, negated_conjecture, (~m1_subset_1(k1_xboole_0,k1_zfmisc_1(esk55_0))), inference(split_conjunct,[status(thm)],[c_0_6])).
+cnf(c_0_10, plain, (m1_subset_1(k1_xboole_0,k1_zfmisc_1(X1))), inference(rw,[status(thm)],[c_0_7, c_0_8])).
+cnf(c_0_11, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_9, c_0_10])]), ['proof']).
+# SZS output end CNFRefutation
+# Training examples: 0 positive, 0 negative
+
+# -------------------------------------------------
+# User time                : 0.014 s
+# System time              : 0.000 s
+# Total time               : 0.014 s
+# Maximum resident set size: 4804 pages

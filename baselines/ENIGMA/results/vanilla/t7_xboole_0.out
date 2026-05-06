@@ -1,0 +1,31 @@
+# No SInE strategy applied
+# Trying AutoSched0 for 29 seconds
+# AutoSched0-Mode selected heuristic G_E___300_C01_F1_SE_CS_SP_S0Y
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.003 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(t7_xboole_0, conjecture, ![X1]:~((~(X1=k1_xboole_0)&![X2]:~(r2_hidden(X2,X1)))), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/xboole_0__t7_xboole_0.p', t7_xboole_0)).
+fof(d1_xboole_0, axiom, ![X1]:(v1_xboole_0(X1)<=>![X2]:~(r2_hidden(X2,X1))), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/xboole_0__t7_xboole_0.p', d1_xboole_0)).
+fof(l13_xboole_0, axiom, ![X1]:(v1_xboole_0(X1)=>X1=k1_xboole_0), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/xboole_0__t7_xboole_0.p', l13_xboole_0)).
+fof(c_0_3, negated_conjecture, ~(![X1]:~((~(X1=k1_xboole_0)&![X2]:~(r2_hidden(X2,X1))))), inference(assume_negation,[status(cth)],[t7_xboole_0])).
+fof(c_0_4, negated_conjecture, ![X4]:(esk13_0!=k1_xboole_0&~r2_hidden(X4,esk13_0)), inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(shift_quantors,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[c_0_3])])])])])])])).
+fof(c_0_5, plain, ![X3, X4, X3]:((~v1_xboole_0(X3)|~r2_hidden(X4,X3))&(r2_hidden(esk1_1(X3),X3)|v1_xboole_0(X3))), inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(shift_quantors,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[d1_xboole_0])])])])])])])).
+fof(c_0_6, plain, ![X2]:(~v1_xboole_0(X2)|X2=k1_xboole_0), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[l13_xboole_0])])).
+cnf(c_0_7, negated_conjecture, (~r2_hidden(X1,esk13_0)), inference(split_conjunct,[status(thm)],[c_0_4])).
+cnf(c_0_8, plain, (r2_hidden(esk1_1(X1),X1)|v1_xboole_0(X1)), inference(split_conjunct,[status(thm)],[c_0_5])).
+cnf(c_0_9, plain, (X1=k1_xboole_0|~v1_xboole_0(X1)), inference(split_conjunct,[status(thm)],[c_0_6])).
+cnf(c_0_10, negated_conjecture, (v1_xboole_0(esk13_0)), inference(spm,[status(thm)],[c_0_7, c_0_8])).
+cnf(c_0_11, negated_conjecture, (esk13_0!=k1_xboole_0), inference(split_conjunct,[status(thm)],[c_0_4])).
+cnf(c_0_12, negated_conjecture, ($false), inference(sr,[status(thm)],[inference(spm,[status(thm)],[c_0_9, c_0_10]), c_0_11]), ['proof']).
+# SZS output end CNFRefutation
+# Training examples: 0 positive, 0 negative
+
+# -------------------------------------------------
+# User time                : 0.004 s
+# System time              : 0.000 s
+# Total time               : 0.004 s
+# Maximum resident set size: 4304 pages

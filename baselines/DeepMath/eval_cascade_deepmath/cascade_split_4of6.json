@@ -1,0 +1,678 @@
+{
+  "t35_orders_2": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t35_yellow_0": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.03,
+    "used_axioms": [
+      "d10_yellow_0",
+      "dt_k2_yellow_0",
+      "t9_yellow_0"
+    ],
+    "num_used": 3,
+    "num_selected": 64
+  },
+  "t36_connsp_2": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.01,
+    "used_axioms": [
+      "d10_xboole_0",
+      "d2_connsp_2",
+      "dt_m2_connsp_2",
+      "t1_xboole_1",
+      "t44_tops_1"
+    ],
+    "num_used": 5,
+    "num_selected": 64
+  },
+  "t36_ordinal1": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t36_tops_1": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.89,
+    "used_axioms": [
+      "d5_subset_1",
+      "dt_k2_pre_topc",
+      "dt_k3_subset_1",
+      "dt_k4_subset_1",
+      "involutiveness_k3_subset_1",
+      "redefinition_k4_subset_1",
+      "t2_boole",
+      "t31_subset_1",
+      "t31_tops_1",
+      "t37_xboole_1",
+      "t3_boole",
+      "t3_subset",
+      "t48_pre_topc",
+      "t48_xboole_1",
+      "t4_boole",
+      "t50_pre_topc",
+      "t52_pre_topc"
+    ],
+    "num_used": 17,
+    "num_selected": 64
+  },
+  "t36_xboole_1": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.0,
+    "used_axioms": [
+      "t2_xboole_1",
+      "t34_xboole_1",
+      "t3_boole"
+    ],
+    "num_used": 3,
+    "num_selected": 32
+  },
+  "t37_funct_2": {
+    "proved": true,
+    "proved_stage": 3,
+    "proved_K": 128,
+    "proof_time": 0.01,
+    "used_axioms": [
+      "t29_funct_2"
+    ],
+    "num_used": 1,
+    "num_selected": 128
+  },
+  "t37_xboole_1": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.0,
+    "used_axioms": [
+      "l32_xboole_1"
+    ],
+    "num_used": 1,
+    "num_selected": 32
+  },
+  "t38_mcart_1": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.0,
+    "used_axioms": [
+      "d3_zfmisc_1",
+      "t35_mcart_1",
+      "t36_mcart_1"
+    ],
+    "num_used": 3,
+    "num_selected": 32
+  },
+  "t38_relat_1": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t39_mcart_1": {
+    "proved": true,
+    "proved_stage": 3,
+    "proved_K": 128,
+    "proof_time": 0.01,
+    "used_axioms": [
+      "d3_mcart_1",
+      "d3_zfmisc_1",
+      "t35_zfmisc_1"
+    ],
+    "num_used": 3,
+    "num_selected": 128
+  },
+  "t39_orders_2": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 2.37,
+    "used_axioms": [
+      "cc1_relset_1",
+      "d10_orders_2",
+      "d1_relat_2",
+      "d2_xboole_0",
+      "d3_tarski",
+      "d4_orders_2",
+      "d9_orders_2",
+      "dt_o_0_0_xboole_0",
+      "dt_u1_orders_2",
+      "existence_m1_subset_1",
+      "t25_orders_2",
+      "t2_subset",
+      "t2_tarski",
+      "t30_orders_2",
+      "t38_orders_2",
+      "t4_subset",
+      "t5_subset",
+      "t7_boole"
+    ],
+    "num_used": 18,
+    "num_selected": 64
+  },
+  "t39_pre_topc": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.01,
+    "used_axioms": [
+      "d3_struct_0",
+      "d9_pre_topc",
+      "dt_l1_pre_topc",
+      "dt_m1_pre_topc",
+      "t1_xboole_1",
+      "t3_subset"
+    ],
+    "num_used": 6,
+    "num_selected": 64
+  },
+  "t39_yellow_6": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t3_ordinal1": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t3_waybel_9": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 32
+  },
+  "t3_wellord2": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 4.59,
+    "used_axioms": [
+      "d16_relat_2",
+      "d1_wellord2",
+      "d3_tarski",
+      "dt_k1_wellord2",
+      "l2_wellord1",
+      "t30_relat_1"
+    ],
+    "num_used": 6,
+    "num_selected": 64
+  },
+  "t3_xboole_0": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.01,
+    "used_axioms": [
+      "commutativity_k3_xboole_0",
+      "d1_xboole_0",
+      "d2_xboole_0",
+      "d4_xboole_0",
+      "d5_xboole_0",
+      "d7_xboole_0",
+      "dt_o_0_0_xboole_0",
+      "l13_xboole_0"
+    ],
+    "num_used": 8,
+    "num_selected": 27
+  },
+  "t3_yellow19": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.01,
+    "used_axioms": [
+      "d1_yellow19",
+      "fraenkel_a_2_0_yellow19"
+    ],
+    "num_used": 2,
+    "num_selected": 64
+  },
+  "t3_yellow_0": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t40_lattice3": {
+    "proved": true,
+    "proved_stage": 3,
+    "proved_K": 128,
+    "proof_time": 0.04,
+    "used_axioms": [
+      "d22_lattice3",
+      "fraenkel_a_2_1_lattice3",
+      "t38_lattice3"
+    ],
+    "num_used": 3,
+    "num_selected": 128
+  },
+  "t42_subset_1": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 2.82,
+    "used_axioms": [
+      "d1_zfmisc_1",
+      "d2_subset_1",
+      "d5_subset_1",
+      "dt_k3_subset_1",
+      "dt_k4_subset_1",
+      "dt_k6_subset_1",
+      "dt_k9_subset_1",
+      "involutiveness_k3_subset_1",
+      "l32_xboole_1",
+      "redefinition_k4_subset_1",
+      "redefinition_k6_subset_1",
+      "redefinition_k7_subset_1",
+      "t12_xboole_1",
+      "t32_subset_1",
+      "t34_xboole_1",
+      "t36_xboole_1",
+      "t4_boole",
+      "t7_boole"
+    ],
+    "num_used": 18,
+    "num_selected": 64
+  },
+  "t42_tmap_1": {
+    "proved": true,
+    "proved_stage": 3,
+    "proved_K": 128,
+    "proof_time": 0.03,
+    "used_axioms": [
+      "t41_tmap_1"
+    ],
+    "num_used": 1,
+    "num_selected": 128
+  },
+  "t42_yellow_0": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t43_lattice3": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t44_funct_1": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t44_zfmisc_1": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.01,
+    "used_axioms": [
+      "commutativity_k2_tarski",
+      "l3_zfmisc_1",
+      "l51_zfmisc_1",
+      "t69_enumset1",
+      "t7_xboole_1"
+    ],
+    "num_used": 5,
+    "num_selected": 64
+  },
+  "t45_funct_2": {
+    "proved": true,
+    "proved_stage": 4,
+    "proved_K": 256,
+    "proof_time": 0.47,
+    "used_axioms": [
+      "cc1_relat_1",
+      "cc1_subset_1",
+      "cc2_relat_1",
+      "cc3_relset_1",
+      "cc4_relset_1",
+      "d10_xboole_0",
+      "d1_funct_1",
+      "d1_funct_2",
+      "d1_xboole_0",
+      "d3_tarski",
+      "d4_subset_1",
+      "d5_relat_1",
+      "dt_k2_subset_1",
+      "fc10_relat_1",
+      "fc11_relat_1",
+      "fc1_xboole_0",
+      "fc6_relat_1",
+      "idempotence_k3_xboole_0",
+      "l32_xboole_1",
+      "redefinition_k1_relset_1",
+      "redefinition_k2_relset_1",
+      "redefinition_k7_relset_1",
+      "t12_funct_1",
+      "t147_funct_1",
+      "t168_relat_1",
+      "t169_relat_1",
+      "t17_xboole_1",
+      "t3_boole",
+      "t3_subset",
+      "t5_subset",
+      "t6_boole",
+      "t7_boole",
+      "t8_boole"
+    ],
+    "num_used": 33,
+    "num_selected": 256
+  },
+  "t45_lattice3": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t45_ordinal1": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 6.38,
+    "used_axioms": [
+      "cc4_ordinal1",
+      "d11_relat_1",
+      "d19_relat_1",
+      "d1_relat_1",
+      "d1_tarski",
+      "d2_xboole_0",
+      "d5_relat_1",
+      "dt_o_0_0_xboole_0",
+      "s3_funct_1__e7_25__funct_1",
+      "t2_xboole_1",
+      "t65_relat_1",
+      "t7_ordinal1"
+    ],
+    "num_used": 12,
+    "num_selected": 64
+  },
+  "t46_funct_1": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 2.03,
+    "used_axioms": [
+      "d8_funct_1",
+      "dt_k5_relat_1",
+      "fc2_funct_1",
+      "t21_funct_1",
+      "t22_funct_1"
+    ],
+    "num_used": 5,
+    "num_selected": 32
+  },
+  "t46_funct_2": {
+    "proved": true,
+    "proved_stage": 3,
+    "proved_K": 128,
+    "proof_time": 4.14,
+    "used_axioms": [
+      "cc1_relset_1",
+      "d13_funct_1",
+      "d1_funct_2",
+      "dt_k8_relset_1",
+      "redefinition_k1_relset_1",
+      "redefinition_k8_relset_1",
+      "t1_subset",
+      "t2_subset",
+      "t4_subset",
+      "t5_subset",
+      "t7_boole"
+    ],
+    "num_used": 11,
+    "num_selected": 128
+  },
+  "t46_mcart_1": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t47_tops_1": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.01,
+    "used_axioms": [
+      "d2_struct_0",
+      "d2_xboole_0",
+      "d3_tarski",
+      "dt_l1_pre_topc",
+      "dt_o_0_0_xboole_0",
+      "t2_tarski",
+      "t3_subset",
+      "t44_tops_1",
+      "t5_subset",
+      "t7_boole"
+    ],
+    "num_used": 10,
+    "num_selected": 64
+  },
+  "t47_yellow_0": {
+    "proved": true,
+    "proved_stage": 3,
+    "proved_K": 128,
+    "proof_time": 0.63,
+    "used_axioms": [
+      "d3_tarski",
+      "d7_yellow_0",
+      "d9_yellow_0",
+      "t46_yellow_0",
+      "t9_yellow_0"
+    ],
+    "num_used": 5,
+    "num_selected": 128
+  },
+  "t48_lattice3": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t49_enumset1": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.0,
+    "used_axioms": [
+      "commutativity_k2_xboole_0",
+      "commutativity_k5_xboole_0",
+      "t41_enumset1",
+      "t42_enumset1",
+      "t44_enumset1",
+      "t47_enumset1",
+      "t4_xboole_1"
+    ],
+    "num_used": 7,
+    "num_selected": 32
+  },
+  "t49_setfam_1": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.08,
+    "used_axioms": [
+      "d8_setfam_1",
+      "dt_k7_setfam_1",
+      "involutiveness_k7_setfam_1",
+      "t4_subset"
+    ],
+    "num_used": 4,
+    "num_selected": 32
+  },
+  "t49_waybel_7": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t49_yellow_0": {
+    "proved": true,
+    "proved_stage": 3,
+    "proved_K": 128,
+    "proof_time": 0.32,
+    "used_axioms": [
+      "d10_yellow_0",
+      "d8_yellow_0",
+      "t48_yellow_0"
+    ],
+    "num_used": 3,
+    "num_selected": 128
+  },
+  "t4_relset_1": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.0,
+    "used_axioms": [
+      "t1_xboole_1",
+      "t3_subset"
+    ],
+    "num_used": 2,
+    "num_selected": 32
+  },
+  "t4_setfam_1": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.01,
+    "used_axioms": [
+      "d1_setfam_1",
+      "d3_tarski",
+      "t2_xboole_1"
+    ],
+    "num_used": 3,
+    "num_selected": 32
+  },
+  "t4_subset_1": {
+    "proved": true,
+    "proved_stage": 1,
+    "proved_K": 32,
+    "proof_time": 0.0,
+    "used_axioms": [
+      "d3_subset_1",
+      "dt_k1_subset_1"
+    ],
+    "num_used": 2,
+    "num_selected": 32
+  },
+  "t50_yellow_0": {
+    "proved": false,
+    "proved_stage": -1,
+    "proved_K": -1,
+    "proof_time": 0.0,
+    "used_axioms": [],
+    "num_used": 0,
+    "num_selected": 0
+  },
+  "t50_zfmisc_1": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.0,
+    "used_axioms": [
+      "commutativity_k2_xboole_0",
+      "fc1_xboole_0",
+      "fc3_xboole_0",
+      "fc5_xboole_0",
+      "t41_enumset1"
+    ],
+    "num_used": 5,
+    "num_selected": 64
+  },
+  "t51_funct_2": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.13,
+    "used_axioms": [
+      "cc1_relset_1",
+      "d10_xboole_0",
+      "d1_funct_2",
+      "d2_xboole_0",
+      "dt_k8_relset_1",
+      "dt_o_0_0_xboole_0",
+      "existence_m1_subset_1",
+      "redefinition_k1_relset_1",
+      "redefinition_k7_relset_1",
+      "redefinition_k8_relset_1",
+      "t146_funct_1",
+      "t2_subset",
+      "t3_subset",
+      "t5_subset",
+      "t6_boole"
+    ],
+    "num_used": 15,
+    "num_selected": 64
+  },
+  "t51_zfmisc_1": {
+    "proved": true,
+    "proved_stage": 2,
+    "proved_K": 64,
+    "proof_time": 0.0,
+    "used_axioms": [
+      "l29_zfmisc_1"
+    ],
+    "num_used": 1,
+    "num_selected": 64
+  }
+}

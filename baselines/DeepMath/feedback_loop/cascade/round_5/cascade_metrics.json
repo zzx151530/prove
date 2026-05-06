@@ -1,0 +1,10 @@
+{
+  "total_problems": 280,
+  "proved_count": 234,
+  "proved_rate": 83.57,
+  "stage_counts": {
+    "32": 226,
+    "64": 8
+  },
+  "Spre": 0.186
+}

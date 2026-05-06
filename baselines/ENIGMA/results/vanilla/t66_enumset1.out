@@ -1,0 +1,59 @@
+# No SInE strategy applied
+# Trying AutoSched0 for 29 seconds
+# AutoSched0-Mode selected heuristic G_E___008_C45_F1_PI_AE_Q4_CS_SP_S4S
+# and selection function SelectNewComplexAHPNS.
+#
+# Preprocessing time       : 0.004 s
+# No success with AutoSched0
+# Trying AutoSched1 for 14 seconds
+# AutoSched1-Mode selected heuristic G_E___200_B02_F1_SE_CS_SP_PI_S0S
+# and selection function SelectComplexG.
+#
+# Preprocessing time       : 0.005 s
+# No success with AutoSched1
+# Trying AutoSched2 for 4 seconds
+# AutoSched2-Mode selected heuristic G_E___208_B07_F1_SE_CS_SP_PS_S2q
+# and selection function SelectCQArNTNp.
+#
+# Preprocessing time       : 0.006 s
+# Presaturation interreduction done
+# No success with AutoSched2
+# Trying AutoSched3 for 3 seconds
+# AutoSched3-Mode selected heuristic G_E___208_B07_F1_SE_CS_SP_PS_S4d
+# and selection function SelectCQIPrecWNTNp.
+#
+# Preprocessing time       : 0.005 s
+# Presaturation interreduction done
+# No success with AutoSched3
+# Trying AutoSched4 for 2 seconds
+# AutoSched4-Mode selected heuristic G_E___300_C18_F1_SE_CS_SP_PS_S0Y
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.005 s
+# Presaturation interreduction done
+# No success with AutoSched4
+# Trying AutoSched5 for 1 seconds
+# AutoSched5-Mode selected heuristic G_E___208_C18_F1_SE_CS_SP_PS_S2o
+# and selection function SelectCQArNXTEqFirst.
+#
+# Preprocessing time       : 0.005 s
+# Presaturation interreduction done
+# No success with AutoSched5
+# Trying AutoSched6 for 0 seconds
+# No success with AutoSched6
+# Trying AutoSched7 for 6 seconds
+# AutoSched7-Mode selected heuristic G_E___208_C18_F1_SE_CS_SP_PS_S3b
+# and selection function SelectCQArNTEqFirstUnlessPDom.
+#
+# Preprocessing time       : 0.005 s
+# Presaturation interreduction done
+
+# Failure: Resource limit exceeded (time)
+# SZS status ResourceOut
+# No success with AutoSched7
+
+# -------------------------------------------------
+# User time                : 58.159 s
+# System time              : 0.924 s
+# Total time               : 59.084 s
+# Maximum resident set size: 4576 pages

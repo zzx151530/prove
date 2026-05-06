@@ -1,0 +1,28 @@
+# No SInE strategy applied
+# Trying AutoSched0 for 29 seconds
+# AutoSched0-Mode selected heuristic G_E___207_C18_F1_AE_CS_SP_PS_S0Y
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.009 s
+# Presaturation interreduction done
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(t92_zfmisc_1, conjecture, ![X1, X2]:(r2_hidden(X1,X2)=>r1_tarski(X1,k3_tarski(X2))), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/zfmisc_1__t92_zfmisc_1.p', t92_zfmisc_1)).
+fof(l49_zfmisc_1, axiom, ![X1, X2]:(r2_hidden(X1,X2)=>r1_tarski(X1,k3_tarski(X2))), file('/home/he3090/users/zhaozhongxu/prover/MPTP2078-master/chainy/zfmisc_1__t92_zfmisc_1.p', l49_zfmisc_1)).
+fof(c_0_2, negated_conjecture, ~(![X1, X2]:(r2_hidden(X1,X2)=>r1_tarski(X1,k3_tarski(X2)))), inference(assume_negation,[status(cth)],[t92_zfmisc_1])).
+fof(c_0_3, negated_conjecture, (r2_hidden(esk32_0,esk33_0)&~r1_tarski(esk32_0,k3_tarski(esk33_0))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[c_0_2])])])).
+fof(c_0_4, plain, ![X3, X4]:(~r2_hidden(X3,X4)|r1_tarski(X3,k3_tarski(X4))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[l49_zfmisc_1])])).
+cnf(c_0_5, negated_conjecture, (~r1_tarski(esk32_0,k3_tarski(esk33_0))), inference(split_conjunct,[status(thm)],[c_0_3])).
+cnf(c_0_6, plain, (r1_tarski(X1,k3_tarski(X2))|~r2_hidden(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_4])).
+cnf(c_0_7, negated_conjecture, (r2_hidden(esk32_0,esk33_0)), inference(split_conjunct,[status(thm)],[c_0_3])).
+cnf(c_0_8, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_5, c_0_6]), c_0_7])]), ['proof']).
+# SZS output end CNFRefutation
+# Training examples: 0 positive, 0 negative
+
+# -------------------------------------------------
+# User time                : 0.026 s
+# System time              : 0.002 s
+# Total time               : 0.028 s
+# Maximum resident set size: 4420 pages
